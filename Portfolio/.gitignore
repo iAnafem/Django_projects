@@ -1,0 +1,7 @@
+*.pyc
+*~
+__pycache__
+.idea/
+.Portfolio/venv/
+.LocalLibrary/venv/
+

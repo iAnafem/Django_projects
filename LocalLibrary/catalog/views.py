@@ -124,6 +124,7 @@ class AuthorCreate(PermissionRequiredMixin, CreateView):
     model = Author
     permission_required = 'catalog.can_mark_returned'
     fields = '__all__'
+    initial = {'date_of_death': '05/01/2018'}
 
 
 class AuthorUpdate(PermissionRequiredMixin, UpdateView):
